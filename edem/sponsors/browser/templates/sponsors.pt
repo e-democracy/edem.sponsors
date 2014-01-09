@@ -1,0 +1,6 @@
+<div id="gs-sponsors" tal:condition="here/sponsorcode | nothing">
+  <h3>Sponsors</h3>
+  <div id="gs-sponsors-code" tal:content="structure here/sponsorcode">
+    A Proud Display of our Sponsor
+  </div>
+</div>

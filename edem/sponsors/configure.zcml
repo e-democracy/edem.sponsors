@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:five="http://namespaces.zope.org/five">
+
+  <browser:viewlet
+    name="gs-sponsors-site"
+    layer="edem.skin.interfaces.IEDemLayer"
+    for="Products.GSContent.interfaces.IGSSiteFolder"
+    manager="gs.site.home.interfaces.ISiteHomeSecondary"
+    template="browser/templates/sponsors.pt"
+    class="gs.viewlet.SiteViewlet"
+    weight="10"
+    title="Site Sponsor"
+    permission="zope2.View"/>
+    
+  <browser:viewlet 
+    name="gs-sponsors-group"
+    layer="edem.skin.interfaces.IEDemLayer"
+    for="gs.group.base.interfaces.IGSGroupMarker"
+    manager="gs.group.home.interfaces.IGroupHomepageSecondary"
+    template="browser/templates/sponsors.pt"
+    class="gs.group.base.viewlet.GroupViewlet"
+    weight="5"
+    title="Group Sponsor"
+    permission="zope2.View"/>
+</configure>
+
