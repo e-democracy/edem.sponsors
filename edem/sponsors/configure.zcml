@@ -21,7 +21,7 @@
     manager="gs.group.home.interfaces.IGroupHomepageSecondary"
     template="browser/templates/sponsors.pt"
     class="gs.group.base.viewlet.GroupViewlet"
-    weight="5"
+    weight="15"
     title="Group Sponsor"
     permission="zope2.View"/>
 </configure>
