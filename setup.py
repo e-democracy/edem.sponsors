@@ -39,6 +39,8 @@ setup(
         'edem.skin',
         'gs.viewlet',
         'gs.group.base',
+        'gs.site.home',
+        'Products.GSContent',
         # -*- Extra requirements: -*-
     ],
     entry_points="""
