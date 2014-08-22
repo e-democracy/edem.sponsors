@@ -17,7 +17,10 @@ Introduction
 ===========
 
 This egg provides the sidebar Sponsors block. If available, it simply pulls
-in whatever code is provided for a context's sponsorcode property.
+in whatever code is provided for a context's `sponsorcode` property.
+
+The title for this block defaults to 'Thank You'. This can be overridden via
+the `sponsortitle` property of a context.
 
 Resources
 =========
